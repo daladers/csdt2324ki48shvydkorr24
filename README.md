@@ -12,4 +12,4 @@ The goal of this task is to do a game according to a variant using hardware and 
 #### Software
 Programming language: C#
 #### Hardware
-Arduino UNO
+Crowduino v2.0
