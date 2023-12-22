@@ -1,0 +1,162 @@
+\doxysection{task3.\+Classes.\+Board Class Reference}
+\hypertarget{classtask3_1_1_classes_1_1_board}{}\label{classtask3_1_1_classes_1_1_board}\index{task3.Classes.Board@{task3.Classes.Board}}
+Inheritance diagram for task3.\+Classes.\+Board\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classtask3_1_1_classes_1_1_board}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a2fe3f5530df3028bb121c74aba514376}{Board}} (bool is\+White\+Turn)
+\item 
+\mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a5301e2dd1a56efb86d3482ba04e44db1}{Board}} (int\mbox{[},\mbox{]} gameboard, int white\+Pawns\+Left, int black\+Pawns\+Left, int white\+Kings\+Left, int black\+Kings\+Left)
+\item 
+\mbox{\hyperlink{classtask3_1_1_classes_1_1_board_aed5a9425e78c81e13443e49de9673af6}{Board}} (\mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}} player\+White, \mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}} player\+Black)
+\item 
+void \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_afc46b4fb0705462f55fe8181d2dc880e}{change\+Player\+Turn}} ()
+\item 
+bool \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a01a04be2c30fadde7c46ddd6502af605}{is\+PLayer\+Win}} (\mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}} player)
+\item 
+void \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a553ab11cae8d68316be043abe9c45195}{check\+All\+Moves}} (int color)
+\item 
+void \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a00d073a12cc9d89f9051fcb3817dd889}{Make\+Move}} (Point selected\+Piece, Point new\+Position)
+\item 
+object \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_af0ddd3a14e9827ca791639dd81b7e1bd}{Clone}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Point\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a774d0d3fd9b214f06d9fc6983229e7b2}{List\+Moves}} = new List$<$Point\mbox{[}$\,$\mbox{]}$>$()
+\item 
+\mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}} \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a57a054edc1f77679cc733b77b6579117}{Player\+White}}
+\item 
+\mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}} \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a3957801d44fb44515b5df0bbba04a1ec}{Player\+Black}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int\mbox{[},\mbox{]} \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a6b7698f327a4911737834bb4c2e003ca}{Gameboard}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a7dcfb7f5a3e725c0243b68b9d8e23f39}{Is\+White\+Turn}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a95bcaa848830d99a54e24cd4fc6581b5}{Is\+Jump}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a54b63bddbcef8e3ad884b7c42bebb146}{Is\+Next\+Jump}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{classtask3_1_1_classes_1_1_board_a81807289b4a2f357beca442f332b118b}{Is\+Win}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classtask3_1_1_classes_1_1_board_a2fe3f5530df3028bb121c74aba514376}\label{classtask3_1_1_classes_1_1_board_a2fe3f5530df3028bb121c74aba514376} 
+\index{task3.Classes.Board@{task3.Classes.Board}!Board@{Board}}
+\index{Board@{Board}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{Board()}{Board()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily task3.\+Classes.\+Board.\+Board (\begin{DoxyParamCaption}\item[{bool}]{is\+White\+Turn }\end{DoxyParamCaption})}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a5301e2dd1a56efb86d3482ba04e44db1}\label{classtask3_1_1_classes_1_1_board_a5301e2dd1a56efb86d3482ba04e44db1} 
+\index{task3.Classes.Board@{task3.Classes.Board}!Board@{Board}}
+\index{Board@{Board}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{Board()}{Board()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily task3.\+Classes.\+Board.\+Board (\begin{DoxyParamCaption}\item[{int}]{gameboard\mbox{[},\mbox{]},  }\item[{int}]{white\+Pawns\+Left,  }\item[{int}]{black\+Pawns\+Left,  }\item[{int}]{white\+Kings\+Left,  }\item[{int}]{black\+Kings\+Left }\end{DoxyParamCaption})}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_aed5a9425e78c81e13443e49de9673af6}\label{classtask3_1_1_classes_1_1_board_aed5a9425e78c81e13443e49de9673af6} 
+\index{task3.Classes.Board@{task3.Classes.Board}!Board@{Board}}
+\index{Board@{Board}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{Board()}{Board()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily task3.\+Classes.\+Board.\+Board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}}}]{player\+White,  }\item[{\mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}}}]{player\+Black }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classtask3_1_1_classes_1_1_board_afc46b4fb0705462f55fe8181d2dc880e}\label{classtask3_1_1_classes_1_1_board_afc46b4fb0705462f55fe8181d2dc880e} 
+\index{task3.Classes.Board@{task3.Classes.Board}!changePlayerTurn@{changePlayerTurn}}
+\index{changePlayerTurn@{changePlayerTurn}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{changePlayerTurn()}{changePlayerTurn()}}
+{\footnotesize\ttfamily void task3.\+Classes.\+Board.\+change\+Player\+Turn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a553ab11cae8d68316be043abe9c45195}\label{classtask3_1_1_classes_1_1_board_a553ab11cae8d68316be043abe9c45195} 
+\index{task3.Classes.Board@{task3.Classes.Board}!checkAllMoves@{checkAllMoves}}
+\index{checkAllMoves@{checkAllMoves}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{checkAllMoves()}{checkAllMoves()}}
+{\footnotesize\ttfamily void task3.\+Classes.\+Board.\+check\+All\+Moves (\begin{DoxyParamCaption}\item[{int}]{color }\end{DoxyParamCaption})}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_af0ddd3a14e9827ca791639dd81b7e1bd}\label{classtask3_1_1_classes_1_1_board_af0ddd3a14e9827ca791639dd81b7e1bd} 
+\index{task3.Classes.Board@{task3.Classes.Board}!Clone@{Clone}}
+\index{Clone@{Clone}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{Clone()}{Clone()}}
+{\footnotesize\ttfamily object task3.\+Classes.\+Board.\+Clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a01a04be2c30fadde7c46ddd6502af605}\label{classtask3_1_1_classes_1_1_board_a01a04be2c30fadde7c46ddd6502af605} 
+\index{task3.Classes.Board@{task3.Classes.Board}!isPLayerWin@{isPLayerWin}}
+\index{isPLayerWin@{isPLayerWin}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{isPLayerWin()}{isPLayerWin()}}
+{\footnotesize\ttfamily bool task3.\+Classes.\+Board.\+is\+PLayer\+Win (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}}}]{player }\end{DoxyParamCaption})}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a00d073a12cc9d89f9051fcb3817dd889}\label{classtask3_1_1_classes_1_1_board_a00d073a12cc9d89f9051fcb3817dd889} 
+\index{task3.Classes.Board@{task3.Classes.Board}!MakeMove@{MakeMove}}
+\index{MakeMove@{MakeMove}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{MakeMove()}{MakeMove()}}
+{\footnotesize\ttfamily void task3.\+Classes.\+Board.\+Make\+Move (\begin{DoxyParamCaption}\item[{Point}]{selected\+Piece,  }\item[{Point}]{new\+Position }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classtask3_1_1_classes_1_1_board_a774d0d3fd9b214f06d9fc6983229e7b2}\label{classtask3_1_1_classes_1_1_board_a774d0d3fd9b214f06d9fc6983229e7b2} 
+\index{task3.Classes.Board@{task3.Classes.Board}!ListMoves@{ListMoves}}
+\index{ListMoves@{ListMoves}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{ListMoves}{ListMoves}}
+{\footnotesize\ttfamily List$<$Point\mbox{[}$\,$\mbox{]}$>$ task3.\+Classes.\+Board.\+List\+Moves = new List$<$Point\mbox{[}$\,$\mbox{]}$>$()}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a3957801d44fb44515b5df0bbba04a1ec}\label{classtask3_1_1_classes_1_1_board_a3957801d44fb44515b5df0bbba04a1ec} 
+\index{task3.Classes.Board@{task3.Classes.Board}!PlayerBlack@{PlayerBlack}}
+\index{PlayerBlack@{PlayerBlack}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{PlayerBlack}{PlayerBlack}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}} task3.\+Classes.\+Board.\+Player\+Black}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a57a054edc1f77679cc733b77b6579117}\label{classtask3_1_1_classes_1_1_board_a57a054edc1f77679cc733b77b6579117} 
+\index{task3.Classes.Board@{task3.Classes.Board}!PlayerWhite@{PlayerWhite}}
+\index{PlayerWhite@{PlayerWhite}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{PlayerWhite}{PlayerWhite}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtask3_1_1_classes_1_1_player}{Player}} task3.\+Classes.\+Board.\+Player\+White}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{classtask3_1_1_classes_1_1_board_a6b7698f327a4911737834bb4c2e003ca}\label{classtask3_1_1_classes_1_1_board_a6b7698f327a4911737834bb4c2e003ca} 
+\index{task3.Classes.Board@{task3.Classes.Board}!Gameboard@{Gameboard}}
+\index{Gameboard@{Gameboard}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{Gameboard}{Gameboard}}
+{\footnotesize\ttfamily int \mbox{[},\mbox{]} task3.\+Classes.\+Board.\+Gameboard\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a95bcaa848830d99a54e24cd4fc6581b5}\label{classtask3_1_1_classes_1_1_board_a95bcaa848830d99a54e24cd4fc6581b5} 
+\index{task3.Classes.Board@{task3.Classes.Board}!IsJump@{IsJump}}
+\index{IsJump@{IsJump}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{IsJump}{IsJump}}
+{\footnotesize\ttfamily bool task3.\+Classes.\+Board.\+Is\+Jump\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a54b63bddbcef8e3ad884b7c42bebb146}\label{classtask3_1_1_classes_1_1_board_a54b63bddbcef8e3ad884b7c42bebb146} 
+\index{task3.Classes.Board@{task3.Classes.Board}!IsNextJump@{IsNextJump}}
+\index{IsNextJump@{IsNextJump}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{IsNextJump}{IsNextJump}}
+{\footnotesize\ttfamily bool task3.\+Classes.\+Board.\+Is\+Next\+Jump\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a7dcfb7f5a3e725c0243b68b9d8e23f39}\label{classtask3_1_1_classes_1_1_board_a7dcfb7f5a3e725c0243b68b9d8e23f39} 
+\index{task3.Classes.Board@{task3.Classes.Board}!IsWhiteTurn@{IsWhiteTurn}}
+\index{IsWhiteTurn@{IsWhiteTurn}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{IsWhiteTurn}{IsWhiteTurn}}
+{\footnotesize\ttfamily bool task3.\+Classes.\+Board.\+Is\+White\+Turn\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{classtask3_1_1_classes_1_1_board_a81807289b4a2f357beca442f332b118b}\label{classtask3_1_1_classes_1_1_board_a81807289b4a2f357beca442f332b118b} 
+\index{task3.Classes.Board@{task3.Classes.Board}!IsWin@{IsWin}}
+\index{IsWin@{IsWin}!task3.Classes.Board@{task3.Classes.Board}}
+\doxysubsubsection{\texorpdfstring{IsWin}{IsWin}}
+{\footnotesize\ttfamily bool task3.\+Classes.\+Board.\+Is\+Win\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+task3/\+Classes/\mbox{\hyperlink{_board_8cs}{Board.\+cs}}\end{DoxyCompactItemize}
